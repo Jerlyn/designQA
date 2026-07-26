@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #4ADEDE !important;
+  outline-offset: 0px;
+  border-color: #4ADEDE !important;
+  box-shadow: 0 0 0 3px rgba(74,222,222,0.15) !important;
+}
